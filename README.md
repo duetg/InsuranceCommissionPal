@@ -1,0 +1,2 @@
+# InsuranceCommissionPal
+保险佣金宝，提供中国大陆保险公司主流保险产品的佣金查询
