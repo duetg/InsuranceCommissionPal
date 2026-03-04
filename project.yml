@@ -1,0 +1,34 @@
+name: InsuranceCommissionPal
+options:
+  bundleIdPrefix: com.insurance
+
+targets:
+  InsuranceCommissionPal:
+    type: application
+    platform: iOS
+    deploymentTarget:
+      iOS: "26.0"
+    sources:
+      - InsuranceCommissionPal/Sources
+    settings:
+      base:
+        INFOPLIST_FILE: InsuranceCommissionPal/Resources/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.insurance.commissionpal
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: "1"
+        DEVELOPMENT_TEAM: ""
+        CODE_SIGN_IDENTITY: ""
+        CODE_SIGNING_REQUIRED: NO
+        CODE_SIGNING_ALLOWED: NO
+        GENERATE_INFOPLIST_FILE: NO
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1"
+        SDKROOT: iphoneos26.2
+
+schemes:
+  InsuranceCommissionPal:
+    build:
+      targets:
+        InsuranceCommissionPal: all
+    run:
+      config: Debug
